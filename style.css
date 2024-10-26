@@ -1,0 +1,846 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+body{
+    margin-top: 0;
+    padding: 0;
+    width: 98%;
+    
+}
+
+li{
+    display:inline;
+    font-size: 1.2em;
+    text-transform: capitalize;
+    /* text-decoration: overline; */
+  padding: 0.5em;
+  /* margin-right: 10em; */
+  /* margin-left: 20em;   */
+}
+ul{
+    background-color: rgb(255, 255, 255);
+    color: #aaa1a1;
+     text-align:center; 
+    width: 117.1em;
+    height: 4em;
+    padding: 0em;
+    border: 1em;
+    margin-bottom: 0em;
+     /* position :fixed; 
+     top: 0em;
+    bottom: 0em;   */
+   
+    
+    
+        /* position: fixed; */
+
+}
+/* nav{
+    width: 98.4;
+    height: 3em;
+     
+} */
+
+#bottom{
+    color: black;
+    margin-right: 30em; 
+    font-size: 2em;
+    font-family: monospace;
+    text-align: left;
+    padding-left: 0%;
+}
+#rope{
+    color: red;
+    /* margin-right: 20em;
+    font-size: 2em;
+    font-family: monospace;
+    text-align: none; */
+    padding-left: -0em;
+
+}
+.box{
+    background-image: url(./pexels-umaraffan499-22804.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 117.1em;
+    height: 52em;
+     margin-top: -0em; 
+    opacity: 0.7;
+    position: relative;
+    top: -12em;
+    bottom: 0;
+}
+.out{
+    text-transform: uppercase;
+    font-size: 6em;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: rgb(247, 251, 255);
+    padding-top: 1em;
+    /* margin-bottom: 10em; */
+    margin-top: 2em;
+}
+#in{
+    text-transform: uppercase;
+    font-size: 6em;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: rgb(238, 243, 248);
+    margin-top: -2em;
+    /* margin-bottom: 1oem; */
+    margin-top: 0em;
+}
+p{
+    color:aliceblue;
+    font-size: 2em;
+    text-align: center;
+    font-family: "New Amsterdam", sans-serif;
+    margin-top: -1em;
+    text-transform:capitalize;
+
+}
+/* /* .container{
+    width: 100%;
+    height: 100%;
+    margin-right: 200em; */
+
+ /* .form-control{
+    margin-top: 10em;
+    /* size: 2em; */
+    /* width: -1em; */
+
+ /* }
+ .form-select{
+    margin-top: 10em; */ 
+ 
+     
+ /* From Uiverse.io by shadowmurphy */ 
+/* .input {
+    border: 2px solid transparent;
+    width: 30em;
+    height: 3em;
+    padding-left: 0.8em;
+    outline: none;
+    overflow: hidden;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+  
+  .input:hover,
+  .input:focus {
+    border: 2px solid #4A9DEC;
+    box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+    background-color: white;
+  } */
+  /* .input-group{
+    margin: 0 auto;
+    background-color:red;
+    width: 80em;
+    height: 10em;
+    text-align: center;
+    padding-top: 5em; 
+  } */
+  .input-group {
+    position: relative;
+    display: inline;
+    margin-left: 30em;
+    margin-top: 3em;
+    background-color: #cccaca;
+   }
+   
+   .input {
+    border: solid 1.5px #413636;
+    border-radius: 1rem;
+    background: #fffefe;
+    padding: 1rem;
+    font-size: 2em;
+    color: #2c2828;
+    transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+   
+   }
+   
+   .user-label {
+    position: absolute;
+    left: 15px;
+    color: #362e2e;
+    pointer-events: none;
+    transform: translateY(1rem);
+    transition: 150ms cubic-bezier(0.4,0,0.2,1);
+   }
+   
+   .input:focus, input:valid {
+    outline: none;
+    
+   }
+   
+   .input:focus ~ label, input:valid ~ label {
+    transform: translateY(-50%) scale(0.8);
+    background-color: #ffffff;
+    padding: 0 .2em;
+    color: #485158;
+   }
+ .groupt{
+    margin-left: -3em;
+ }
+ /* From Uiverse.io by Yaya12085 */ 
+.input-container {
+    position: relative;
+    display: inline;
+    align-items: center;
+  }
+  
+  .input {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 18px 16px;
+    background-color:transparent;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+   
+    /* margin-left: 200em; */
+  }
+  
+  .input::placeholder {
+    color: transparent;
+  }
+  
+  .input:focus::placeholder {
+    color: rgb(255, 252, 252);
+  }
+  
+  .input:focus,.input:not(:placeholder-shown) {
+    background-color: #ebebeb;
+    border: 1px solid rgb(91, 107, 255);
+    width: 290px;
+    cursor: none;
+    padding: 18px 16px 18px 45px;
+  }
+  
+  .icon {
+    position: absolute;
+    left: 0;
+    height: 45px;
+    width: 45px;
+    background-color: #cabdbd;
+    border-radius: 99px;
+    z-index: -1;
+    fill:rgb(91, 107, 255);
+    border: 1px solid rgb(102, 113, 192);
+  }
+  
+  .input:focus + .icon,.input:not(:placeholder-shown) + .icon {
+    z-index: 0;
+    background-color: transparent;
+    border: none;
+  }
+  /* From Uiverse.io by joe-watson-sbf */ 
+.flip-card {
+    background-color: transparent;
+    width: 15em;
+    height: 18em;
+    perspective: 1000px;
+    font-family: sans-serif;
+    margin-top: 3em;
+    margin-left: 10em;
+    margin-top: 2em; 
+    
+    /* margin-left: 2em; */
+  }
+  .up{
+   
+    width: 100%;
+    height:20em
+  }
+  
+  .title {
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    display: inline;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid #2b2223;
+    border-radius: 1rem;
+  }
+  
+  .flip-card-front {
+    /* background: linear-gradient(120deg,#b1424a 60%, #f5f0f0 88%,
+       rgb(255, 211, 195) 40%, #FF5761 48%);  */
+    color: rgb(49, 35, 30);
+    background-color: #c2d5ee;
+  }
+  
+  .flip-card-back {
+    /* background: linear-gradient(120deg, #FF5761  30%, coral 88%,
+       bisque 40%, rgb(255, 185, 160) 78%); */
+    color: white;
+    transform: rotateY(180deg);
+    background-color: #ffffff;
+  } 
+  .two{
+position: relative;
+top: -20em;
+left:20em
+  }
+  .three{
+    position: relative;
+top: -40em;
+left:40em
+  }
+  .four{
+    position: relative;
+top: -60em;
+left:60em
+  }
+  .five{
+    position: relative;
+top: -80em;
+left:80em
+  }
+img{
+  margin:0 auto;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+#hi{
+    font-size: 2em;
+    font-family: monospace;
+    color: #2b2223;
+}
+/* From Uiverse.io by Yaya12085 */ 
+.card {
+    max-width: 300px;
+    border-radius: 0.5rem;
+    background-color: #f8f8f8;
+    box-shadow: 0 1px 2px 0 rgb(29, 28, 28);
+    border: 1px solid transparent;
+  }
+  .card:hover{
+    background-color: #c2d5ee;
+    /* color: #c0b8b8; */
+  }
+  
+  .card a {
+    text-decoration: none
+  }
+  
+  .content {
+    padding: 1.1rem;
+  }
+  
+  .image {
+    /* object-fit: cover; */
+    width: 30em;
+    height: 9em;
+    margin: 0 auto;
+    /* background-image: url(); */
+  }
+  
+  .title {
+    color: #111827;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+  }
+  
+  .desc {
+    margin-top: 0.5rem;
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  
+  .action {
+    display: inline-flex;
+    margin-top: 1rem;
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    align-items: center;
+    gap: 0.25rem;
+    background-color: #2563EB;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  
+  .action span {
+    transition: .3s ease;
+  }
+  
+  .action:hover span {
+    transform: translateX(4px);
+  }
+  .seven{
+    position: relative;
+    left: 20em;
+    margin-left: 4em;
+    border: #2b2223 0.3em solid;
+  } 
+  .eight{
+    position: relative;
+    top: -22em ;
+    left:48em ;
+    margin-left: 4em;
+    border: #2b2223 0.3em solid;
+  }
+   .six{
+    position: relative;
+top: -43.3em; 
+left: 75em; 
+margin-left: 4em;
+border: #2b2223 0.3em solid;
+  } 
+  .old{
+    margin-left:7em ;
+    margin-top: 4em;
+  }
+  .hello{
+    width: 100%;
+    height: 90em;
+    background-color: #bdc5d6;
+    margin-top: -20em;
+
+  }
+  
+  
+  /* From Uiverse.io by Sashank02 */ 
+.top{
+    padding: 20px;
+    width: 330px;
+    min-height: 370px;
+    border-radius: 20px;
+    background: #212121;
+    box-shadow: 5px 5px 8px #1b1b1b,
+               -5px -5px 8px #272727;
+    transition: 0.4s;
+  }
+  
+  .card:hover {
+    translate: 0 -10px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #b2eccf;
+    margin: 15px 0 0 10px;
+  }
+  
+  .card-image {
+    min-height: 170px;
+    background-color: #313131;
+    border-radius: 15px;
+    background: #313131;
+    box-shadow: inset 5px 5px 3px #2f2f2f,
+              inset -5px -5px 3px #333333;
+  }
+  
+  .card-body {
+    margin: 13px 0 0 10px;
+    color: rgb(141, 64, 64);
+    font-size: 15px;
+  }
+  
+  .footer {
+    float: right;
+    margin: 28px 0 0 18px;
+    font-size: 13px;
+    color: #b3b3b3;
+  }
+  
+  .by-name {
+    font-weight: 700;
+  }
+ .top{
+position: relative;
+left: 20em;
+top: 1em;
+ }
+ .topp{
+position: relative;
+top: -26em;
+left: 50em;
+padding: 20px;
+width: 330px;
+min-height: 370px;
+border-radius: 20px;
+background: #212121;
+box-shadow: 5px 5px 8px #1b1b1b,
+           -5px -5px 8px #272727;
+transition: 0.4s;
+ }
+ .bottom{
+position: relative;
+left: 80em;
+top: -52em;
+padding: 20px;
+width: 330px;
+min-height: 370px;
+border-radius: 20px;
+background: #212121;
+box-shadow: 5px 5px 8px #1b1b1b,
+           -5px -5px 8px #272727;
+transition: 0.4s;
+ }
+ .first{
+    position: relative;
+    left: 20em;
+    top: -46em;
+    padding: 20px;
+    width: 330px;
+    min-height: 370px;
+    border-radius: 20px;
+    background: #212121;
+    box-shadow: 5px 5px 8px #1b1b1b,
+               -5px -5px 8px #272727;
+    transition: 0.4s;
+ }
+ .second{
+    position: relative;
+    left: 50em;
+    top: -73em;
+    padding: 20px;
+    width: 330px;
+    min-height: 370px;
+    border-radius: 20px;
+    background: #212121;
+    box-shadow: 5px 5px 8px #1b1b1b,
+               -5px -5px 8px #272727;
+    transition: 0.4s;
+ }
+ .third{
+    position: relative;
+    left: 80em;
+    top: -100em;
+    padding: 20px;
+    width: 330px;
+    min-height: 370px;
+    border-radius: 20px;
+    background: #212121;
+    box-shadow: 5px 5px 8px #1b1b1b,
+               -5px -5px 8px #272727;
+    transition: 0.4s;
+ }
+ .new{
+width: 18em;
+height: 20em;
+margin: 0 auto;
+ }
+ .pop{
+    margin-top: -60em;
+ }
+/* From Uiverse.io by gharsh11032000 */ 
+.yes {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 5px #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    margin-left: 10em;
+    
+  }
+  
+  .card svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+  }
+  
+  .card__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    transform: rotateX(-90deg);
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .card:hover .card__content {
+    transform: rotateX(0deg);
+  }
+  
+  .card__title {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  .card:hover svg {
+    scale: 0;
+  }
+  
+  .card__description {
+    margin: 10px 0 0;
+    font-size: 1.5em;
+    color: #362f2f;
+    line-height: 1.4;
+  }
+  .left{
+position: relative;
+left: 10em;
+  }
+  .middle{
+position:relative;
+left: 30em;
+top: -12.5em;
+  }
+  .right{
+position: relative;
+left: 50em;
+top: -25em;
+  }
+  .center{
+position: relative;
+top: -38em;
+left: 70em;
+  }
+  #img{
+    width:33em ;
+    height: 12em;
+    margin-left: -2em;
+  }
+  /* .card_description{
+font-size: 3em;
+color: #212121;
+  } */
+ 
+   .counters{
+    padding:3em 2em ;
+    background-image: url(./pexels-umaraffan499-22804.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+    margin-top: -20em;
+    /* diplay:inline; */
+   }
+  .counters>div{
+    max-width: 400em;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+  gap: 4em 2em;
+
+  } 
+   #max{
+    text-align: left; 
+  margin-left: 0.4em;
+ 
+   }
+   .aa{
+    position: relative;
+    top: -0em;
+    left: 2em;
+   }
+   .bb{
+    position: relative;
+    left: 3em;
+    top: -0em;
+   }
+   .cc{
+    position:relative;
+    left: 0em;
+    top: -0em;
+   }
+   .dd{
+    position: relative;
+    left: 5em;
+   }
+   .counter{
+position: relative;
+   }
+   .counter h1{
+    font-size: 3em;
+    margin-bottom: 1em;
+   }
+   /* .counter:not(last child)::before{
+    content: '';
+    background-color: #2563EB;
+    position: absolute;
+    width: 1em;
+    height:3em;
+    top: 50%;
+    transform:translateY(-50%);
+    right: 1em;
+   } */
+
+   /* From Uiverse.io by alexmaracinaru */ 
+.light {
+  width: 25em;
+  background: white;
+  padding: .4em;
+  border-radius: 6px;
+  height: 20em;
+}
+
+.band {
+  background-color: rgb(226, 226, 226);
+  width: 19em;
+  height: 4em;
+  border-radius: 6px 6px 0 0;
+}
+
+.card-image:hover {
+  transform: scale(0.98);
+}
+
+.category {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: rgb(63, 121, 230);
+  padding: 10px 7px 0;
+}
+
+.category:hover {
+  cursor: pointer;
+}
+
+.heading {
+  font-weight: 600;
+  color: rgb(88, 87, 87);
+  padding: 7px;
+}
+
+.heading:hover {
+  cursor: pointer;
+}
+
+.author {
+  color: rgb(29, 26, 26);
+  font-weight: 400;
+  font-size: 11px;
+  padding-top: 20px;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.name:hover {
+  cursor: pointer;
+}
+.red{
+  position: relative;
+  left: 30em;
+  top: 1em;
+    }
+    .green{
+  position:relative;
+  left: 52em;
+  top: -20em;
+    }
+    .blue{
+  position: relative;
+  left: 75em;
+  top: -41em;
+    }
+    .light:hover{
+      background-color: #878e97;
+      box-shadow: #111827;
+      
+    }
+    #next{
+      width: 19em;
+      height: 11em;
+    }
+    .box7{
+margin-top: 340em;
+background-color: #cccaca;
+width: 100%;
+height: 30em;
+    }
+    /* From Uiverse.io by alexruix */ 
+.account {
+  display: flex;
+  align-items: center;
+}
+
+.text{
+  min-height: 5em;
+  width: 40em;
+  padding: 0 1rem;
+  color: #fff;
+  font-size: 15px;
+  border: 1px solid #5e4dcd;
+  border-radius: 6px 0 0 6px;
+  background-color: transparent;
+}
+
+.button--submit {
+  min-height: 5em;
+  padding: .5em 1em;
+  border: none;
+  border-radius: 0 6px 6px 0;
+  background-color: #5e4dcd;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color .3s ease-in-out;
+}
+
+.button--submit:hover {
+  background-color: #5e5dcd;
+}
+
+.input:focus, .input:focus-visible {
+  border-color: #3898EC;
+  outline: none;
+}
+
+
+  
